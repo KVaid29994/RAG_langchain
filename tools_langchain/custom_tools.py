@@ -61,3 +61,6 @@ print (plot_chart.invoke({
     "title": "Browser Usage",
     "chart_type": "pie"
 }))
+
+
+print(plot_chart.args_schema.model_json_schema())
